@@ -1,0 +1,1 @@
+C:\Repos\Maui\PosSystem\PosSystem\PosSystem\PosSystem.csproj;x64

@@ -1,0 +1,264 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|c:\\repos\\maui\\possystem\\possystem\\possystem\\views\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|solutionrelative:possystem\\views\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|c:\\repos\\maui\\possystem\\possystem\\possystem\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|solutionrelative:possystem\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|c:\\repos\\maui\\possystem\\possystem\\possystem\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|solutionrelative:possystem\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|c:\\repos\\maui\\possystem\\possystem\\possystem\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|solutionrelative:possystem\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|c:\\repos\\maui\\possystem\\possystem\\possystem\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|solutionrelative:possystem\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|c:\\repos\\maui\\possystem\\possystem\\possystem\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|solutionrelative:possystem\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|c:\\repos\\maui\\possystem\\possystem\\possystem\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|solutionrelative:possystem\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|c:\\repos\\maui\\possystem\\possystem\\possystem\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|solutionrelative:possystem\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|c:\\repos\\maui\\possystem\\possystem\\possystem\\views\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|solutionrelative:possystem\\views\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|c:\\repos\\maui\\possystem\\possystem\\possystem\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|solutionrelative:possystem\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|c:\\repos\\maui\\possystem\\possystem\\possystem\\services\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|solutionrelative:possystem\\services\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|c:\\repos\\maui\\possystem\\possystem\\possystem\\services\\repositories\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|solutionrelative:possystem\\services\\repositories\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|c:\\repos\\maui\\possystem\\possystem\\possystem\\services\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|solutionrelative:possystem\\services\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|c:\\repos\\maui\\possystem\\possystem\\possystem\\services\\interfaces\\idatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|solutionrelative:possystem\\services\\interfaces\\idatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|c:\\repos\\maui\\possystem\\possystem\\possystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9275CA70-F720-459A-BFE1-DE022AD8A16E}|PosSystem\\PosSystem.csproj|solutionrelative:possystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Services\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "PosSystem\\Services\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Services\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "PosSystem\\Services\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:12:49.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "PosSystem\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "PosSystem\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:25:18.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Views\\App.xaml",
+              "RelativeDocumentMoniker": "PosSystem\\Views\\App.xaml",
+              "ToolTip": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Views\\App.xaml",
+              "RelativeToolTip": "PosSystem\\Views\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-24T15:16:37.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Views\\App.xaml.cs",
+              "RelativeDocumentMoniker": "PosSystem\\Views\\App.xaml.cs",
+              "ToolTip": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Views\\App.xaml.cs",
+              "RelativeToolTip": "PosSystem\\Views\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:16:31.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "PosSystem\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "PosSystem\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-24T15:24:24.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "PosSystem\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "PosSystem\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:35:01.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\AppShell.xaml",
+              "RelativeDocumentMoniker": "PosSystem\\AppShell.xaml",
+              "ToolTip": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\AppShell.xaml",
+              "RelativeToolTip": "PosSystem\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAWwBUAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-24T15:26:09.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "PosSystem\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\AppShell.xaml.cs",
+              "RelativeToolTip": "PosSystem\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:35:54.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\MainPage.xaml",
+              "RelativeDocumentMoniker": "PosSystem\\MainPage.xaml",
+              "ToolTip": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\MainPage.xaml",
+              "RelativeToolTip": "PosSystem\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-24T16:14:35.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "PosSystem\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\MainPage.xaml.cs",
+              "RelativeToolTip": "PosSystem\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:14:41.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "PosSystem\\MauiProgram.cs",
+              "ToolTip": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\MauiProgram.cs",
+              "RelativeToolTip": "PosSystem\\MauiProgram.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:15:46.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Services\\Repositories\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "PosSystem\\Services\\Repositories\\DatabaseService.cs",
+              "ToolTip": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Services\\Repositories\\DatabaseService.cs",
+              "RelativeToolTip": "PosSystem\\Services\\Repositories\\DatabaseService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:12:56.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Services\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "PosSystem\\Services\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Services\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "PosSystem\\Services\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:12:29.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDatabaseService.cs",
+              "DocumentMoniker": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Services\\Interfaces\\IDatabaseService.cs",
+              "RelativeDocumentMoniker": "PosSystem\\Services\\Interfaces\\IDatabaseService.cs",
+              "ToolTip": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Services\\Interfaces\\IDatabaseService.cs",
+              "RelativeToolTip": "PosSystem\\Services\\Interfaces\\IDatabaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:12:39.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Models\\User.cs",
+              "RelativeDocumentMoniker": "PosSystem\\Models\\User.cs",
+              "ToolTip": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\Models\\User.cs",
+              "RelativeToolTip": "PosSystem\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:10:17.074Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
