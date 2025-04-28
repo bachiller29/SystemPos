@@ -8,13 +8,20 @@
     <RefreshView IsRefreshing="{Binding IsLoading}"
                  Command="{Binding LoadProductsCommand}">
         <Grid RowDefinitions="Auto, *">
+            <!-- Botón de regreso -->
+            <Button Grid.Row="0"
+                    Text="← Volver a Clientes"
+                    Command="{Binding GoBackCommand}"
+                    HorizontalOptions="Start"
+                    Margin="10"/>
+            
             <!-- Barra de búsqueda -->
-            <SearchBar Grid.Row="0"
+            <SearchBar Grid.Row="1"
                        Placeholder="Buscar productos..."
                        TextChanged="OnSearchTextChanged"/>
 
             <!-- Lista de productos -->
-            <CollectionView Grid.Row="1"
+            <CollectionView Grid.Row="2"
                            ItemsSource="{Binding Products}"
                            SelectionMode="Single">
                 <CollectionView.ItemTemplate>

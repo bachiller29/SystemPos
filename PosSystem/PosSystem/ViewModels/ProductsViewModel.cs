@@ -18,12 +18,19 @@ namespace PosSystem.ViewModels
         public bool IsLoading { get; private set; }
         public ICommand LoadProductsCommand { get; }
         public ICommand AddToCartCommand { get; }
+        public ICommand GoBackCommand { get; }
 
         public ProductsViewModel(IProductRepository productRepository)
         {
             _productRepo = productRepository;
             LoadProductsCommand = new Command(async () => await LoadProductsAsync());
             AddToCartCommand = new Command<Product>(AddToCart);
+            GoBackCommand = new Command(async () => await GoBack());
+        }
+
+        private async Task GoBack()
+        {
+            await Shell.Current.GoToAsync("..");                                                 
         }
 
         public async Task InitializeAsync()

@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Repos\ReposW\SystemPos\PosSystem\PosSystem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-28T23:12:09.877</Modified>
+      <Modified>2025-04-28T23:23:27.846</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repos\ReposW\SystemPos\PosSystem\PosSystem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PosSystem.dll">
       <PackagePath>PosSystem.dll</PackagePath>
-      <Modified>2025-04-28T23:12:09.553</Modified>
+      <Modified>2025-04-28T23:23:27.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repos\ReposW\SystemPos\PosSystem\PosSystem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PosSystem.exe</PackagePath>
-      <Modified>2025-04-28T23:12:09.558</Modified>
+      <Modified>2025-04-28T23:23:27.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repos\ReposW\SystemPos\PosSystem\PosSystem\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
