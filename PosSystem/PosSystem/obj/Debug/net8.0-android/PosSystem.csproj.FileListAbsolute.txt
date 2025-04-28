@@ -2104,3 +2104,7 @@ C:\Repos\ReposW\SystemPos\PosSystem\PosSystem\obj\Debug\net8.0-android\stamp\_Ge
 C:\Repos\ReposW\SystemPos\PosSystem\PosSystem\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Repos\ReposW\SystemPos\PosSystem\PosSystem\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
 C:\Repos\ReposW\SystemPos\PosSystem\PosSystem\obj\Debug\net8.0-android\android\assets\Newtonsoft.Json.dll
+C:\Repos\ReposW\SystemPos\PosSystem\PosSystem\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Private.CoreLib.dll
+C:\Repos\ReposW\SystemPos\PosSystem\PosSystem\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Private.CoreLib.dll
+C:\Repos\ReposW\SystemPos\PosSystem\PosSystem\obj\Debug\net8.0-android\android\assets\x86\System.Private.CoreLib.dll
+C:\Repos\ReposW\SystemPos\PosSystem\PosSystem\obj\Debug\net8.0-android\android\assets\x86_64\System.Private.CoreLib.dll

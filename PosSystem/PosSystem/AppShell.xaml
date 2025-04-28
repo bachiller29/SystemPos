@@ -7,25 +7,29 @@
     Shell.FlyoutBehavior="Disabled"
     Title="PosSystem">
 
-    <!-- Login es la primera página -->
+    <!-- Login como página modal inicial -->
     <ShellContent 
         Title="Login" 
         ContentTemplate="{DataTemplate local:LoginPage}" 
-        Route="LoginPage"
-        Shell.PresentationMode="Modal"
-        Shell.FlyoutBehavior="Disabled" />
-    <ShellContent Title="Inicio" ContentTemplate="{DataTemplate local:MainPage}" Route="//MainPage" />
+        Route="login"
+        Shell.PresentationMode="Modal"/>
 
-    <!-- Página Principal (Home) -->
+    <!-- Área principal de navegación -->
+    <TabBar Route="appmain">
+        <ShellContent 
+            Title="Inicio" 
+            ContentTemplate="{DataTemplate local:MainPage}" 
+            Route="main"/>
+
+        <ShellContent 
+            Title="Clientes" 
+            ContentTemplate="{DataTemplate local:ClientListPage}" 
+            Route="clients"/>
+    </TabBar>
+
+    <!-- Ruta independiente para productos -->
     <ShellContent 
-        Title="Inicio" 
-        ContentTemplate="{DataTemplate local:MainPage}" 
-        Route="MainPage" />
-
-    <!-- Página de Lista de Clientes -->
-    <ShellContent 
-        Title="Clientes" 
-        ContentTemplate="{DataTemplate local:ClientListPage}" 
-        Route="ClientListPage" />
-
+        Title="Productos" 
+        ContentTemplate="{DataTemplate local:ProductsPage}" 
+        Route="products"/>
 </Shell>

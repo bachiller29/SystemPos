@@ -9,4 +9,14 @@ public partial class ClientListPage : ContentPage
         InitializeComponent();
         BindingContext = viewModel;
     }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+
+        if (BindingContext is ClientListViewModel vm && vm.LoadClientsCommand?.CanExecute(null) == true)
+        {
+            vm.LoadClientsCommand.Execute(null);
+        }
+    }
 }

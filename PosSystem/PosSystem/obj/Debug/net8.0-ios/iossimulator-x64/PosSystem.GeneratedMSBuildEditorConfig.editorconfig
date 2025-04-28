@@ -64,3 +64,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PosSystem.Views.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[C:/Repos/ReposW/SystemPos/PosSystem/PosSystem/Views/ProductsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PosSystem.Views.ProductsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProductsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProductsPage.xaml

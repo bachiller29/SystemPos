@@ -37,7 +37,7 @@ namespace PosSystem.ViewModels
             {
                 Username = string.Empty;
                 Password = string.Empty;
-                await Shell.Current.GoToAsync("//ClientListPage");
+                await Shell.Current.GoToAsync("//clients");
             }
             else
             {

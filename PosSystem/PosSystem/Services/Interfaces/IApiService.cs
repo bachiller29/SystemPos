@@ -5,5 +5,6 @@ namespace PosSystem.Services.Interfaces
     public interface IApiService
     {
         Task<List<Client>> GetClientsAsync();
+        Task<List<Product>> GetProductsAsync();
     }
 }

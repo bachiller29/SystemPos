@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:PosSystem.ViewModels"            
+             x:Class="PosSystem.Views.ProductsPage"
+             Title="ProductsPage">
+
+    <RefreshView IsRefreshing="{Binding IsLoading}"
+                 Command="{Binding LoadProductsCommand}">
+        <Grid RowDefinitions="Auto, *">
+            <!-- Barra de búsqueda -->
+            <SearchBar Grid.Row="0"
+                       Placeholder="Buscar productos..."
+                       TextChanged="OnSearchTextChanged"/>
+
+            <!-- Lista de productos -->
+            <CollectionView Grid.Row="1"
+                           ItemsSource="{Binding Products}"
+                           SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="10" Padding="10" CornerRadius="10">
+                            <Grid ColumnDefinitions="100, *, Auto" 
+                                  ColumnSpacing="10">
+                                <!-- Imagen del producto -->
+                                <Image Source="{Binding ImageUrl}"
+                                       Aspect="AspectFill"
+                                       HeightRequest="80"
+                                       WidthRequest="80"/>
+
+                                <!-- Detalles -->
+                                <VerticalStackLayout Grid.Column="1">
+                                    <Label Text="{Binding Title}" 
+                                           FontAttributes="Bold"
+                                           MaxLines="1"/>
+                                    <Label Text="{Binding Price, StringFormat='Precio: {0:C}'}"
+                                           TextColor="Green"/>
+                                    <Label Text="{Binding Category}"
+                                           FontSize="Small"
+                                           TextColor="Gray"/>
+                                </VerticalStackLayout>
+
+                                <!-- Botón de acción -->
+                                <Button Grid.Column="2"
+                                        Text="Agregar"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:ProductsViewModel}}, Path=AddToCartCommand}"
+                                        CommandParameter="{Binding .}"
+                                        VerticalOptions="Center"/>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+        </RefreshView>
+
+</ContentPage>

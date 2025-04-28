@@ -19,20 +19,25 @@ namespace PosSystem
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-            // Aquí registras tus servicios
+            // Servicios Singleton (globales)
             builder.Services.AddSingleton<IDatabaseService, DatabaseService>();
-            builder.Services.AddSingleton<IUserRepository, UserRepository>();
             builder.Services.AddSingleton<IApiService, ApiService>();
-            builder.Services.AddSingleton<IClientRepository, ClientRepository>();
 
-            // ViewModels
+            // Repositorios (Transient si tienen estado)
+            builder.Services.AddTransient<IUserRepository, UserRepository>();
+            builder.Services.AddTransient<IClientRepository, ClientRepository>();
+            builder.Services.AddTransient<IProductRepository, ProductRepository>();
+
+            // ViewModels (Transient para recibir parámetros frescos)
             builder.Services.AddTransient<LoginViewModel>();
-            builder.Services.AddTransient<MainPage>();
-            builder.Services.AddSingleton<ClientListViewModel>();
+            builder.Services.AddTransient<ClientListViewModel>();
+            builder.Services.AddTransient<ProductsViewModel>();
 
-            // Páginas (para navegación)
+            // Páginas (Transient para navegación limpia)
             builder.Services.AddTransient<LoginPage>();
-            builder.Services.AddSingleton<ClientListPage>();
+            builder.Services.AddTransient<MainPage>();
+            builder.Services.AddTransient<ClientListPage>();
+            builder.Services.AddTransient<ProductsPage>();
 
 #if DEBUG
             builder.Logging.AddDebug();
