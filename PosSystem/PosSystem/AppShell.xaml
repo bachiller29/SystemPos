@@ -7,11 +7,6 @@
     Shell.FlyoutBehavior="Disabled"
     Title="PosSystem">
 
-    <!--<ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />-->
-
     <!-- Login es la primera página -->
     <ShellContent 
         Title="Login" 
@@ -20,5 +15,17 @@
         Shell.PresentationMode="Modal"
         Shell.FlyoutBehavior="Disabled" />
     <ShellContent Title="Inicio" ContentTemplate="{DataTemplate local:MainPage}" Route="//MainPage" />
+
+    <!-- Página Principal (Home) -->
+    <ShellContent 
+        Title="Inicio" 
+        ContentTemplate="{DataTemplate local:MainPage}" 
+        Route="MainPage" />
+
+    <!-- Página de Lista de Clientes -->
+    <ShellContent 
+        Title="Clientes" 
+        ContentTemplate="{DataTemplate local:ClientListPage}" 
+        Route="ClientListPage" />
 
 </Shell>

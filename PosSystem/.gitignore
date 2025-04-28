@@ -1,0 +1,20 @@
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+*.lock.json
+bin/
+obj/
+Debug/
+Release/
+
+## .NET MAUI específico
+BundleArtifacts/
+Packages/
+artifacts/
+
+## Otros
+*.swp
+*.log
+*.cache

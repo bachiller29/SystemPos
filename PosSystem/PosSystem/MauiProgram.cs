@@ -19,16 +19,20 @@ namespace PosSystem
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-            // 👉 Aquí registras tus servicios
+            // Aquí registras tus servicios
             builder.Services.AddSingleton<IDatabaseService, DatabaseService>();
             builder.Services.AddSingleton<IUserRepository, UserRepository>();
+            builder.Services.AddSingleton<IApiService, ApiService>();
+            builder.Services.AddSingleton<IClientRepository, ClientRepository>();
 
-            // 👉 ViewModels
+            // ViewModels
             builder.Services.AddTransient<LoginViewModel>();
             builder.Services.AddTransient<MainPage>();
+            builder.Services.AddSingleton<ClientListViewModel>();
 
-            // 👉 Páginas (para navegación)
+            // Páginas (para navegación)
             builder.Services.AddTransient<LoginPage>();
+            builder.Services.AddSingleton<ClientListPage>();
 
 #if DEBUG
             builder.Logging.AddDebug();

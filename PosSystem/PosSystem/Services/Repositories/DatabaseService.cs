@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PosSystem.Models;
 using PosSystem.Services.Interfaces;
 using SQLite;
 
@@ -28,6 +24,7 @@ namespace PosSystem.Services.Repositories
         {
             var conn = await GetConnectionAsync();
             await conn.CreateTableAsync<Models.User>();
+            await conn.CreateTableAsync<Client>();
         }
     }
 }

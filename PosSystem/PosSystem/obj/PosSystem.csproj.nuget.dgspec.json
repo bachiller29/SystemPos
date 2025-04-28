@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\PosSystem.csproj": {}
+    "C:\\Repos\\ReposW\\SystemPos\\PosSystem\\PosSystem\\PosSystem.csproj": {}
   },
   "projects": {
-    "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\PosSystem.csproj": {
+    "C:\\Repos\\ReposW\\SystemPos\\PosSystem\\PosSystem\\PosSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\PosSystem.csproj",
+        "projectUniqueName": "C:\\Repos\\ReposW\\SystemPos\\PosSystem\\PosSystem\\PosSystem.csproj",
         "projectName": "PosSystem",
-        "projectPath": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\PosSystem.csproj",
+        "projectPath": "C:\\Repos\\ReposW\\SystemPos\\PosSystem\\PosSystem\\PosSystem.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\Maui\\PosSystem\\PosSystem\\PosSystem\\obj\\",
+        "outputPath": "C:\\Repos\\ReposW\\SystemPos\\PosSystem\\PosSystem\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -89,6 +89,10 @@
               "version": "[8.0.14, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.9.172, )"
@@ -162,6 +166,10 @@
               "version": "[8.0.14, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.9.172, )"
@@ -223,6 +231,10 @@
               "version": "[8.0.14, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.9.172, )"
@@ -278,6 +290,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.100, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",

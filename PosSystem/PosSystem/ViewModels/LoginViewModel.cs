@@ -21,17 +21,29 @@ namespace PosSystem.ViewModels
         [RelayCommand]
         private async Task Login()
         {
+            HasError = false;
+            ErrorMessage = string.Empty;
+
+            if (string.IsNullOrWhiteSpace(Username) || string.IsNullOrWhiteSpace(Password))
+            {
+                ErrorMessage = "Por favor, ingresa usuario y contraseña.";
+                HasError = true;
+                return;
+            }
+
             var usuario = await _userRepository.GetUserAsync(username, password);
 
             if (usuario != null)
             {
-                hasError = false;
-                await Shell.Current.GoToAsync("//MainPage");
+                Username = string.Empty;
+                Password = string.Empty;
+                await Shell.Current.GoToAsync("//ClientListPage");
             }
             else
             {
-                errorMessage = "Credenciales incorrectas";
-                hasError = true;
+                ErrorMessage = "Credenciales incorrectas.";
+                HasError = true;
+                Password = string.Empty;
             }
         }
     }

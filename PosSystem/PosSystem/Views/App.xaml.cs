@@ -10,12 +10,19 @@ namespace PosSystem
             InitializeComponent();
 
             // Solo inicializa la base de datos
-            _ = dbService.InitAsync();
+            //_ = dbService.InitAsync();
 
             // Usa AppShell como la única instancia de la interfaz principal
+            //MainPage = new AppShell();
+            //Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
+            //Shell.Current.GoToAsync("//LoginPage");
+            Task.Run(async () =>
+            {
+                await dbService.InitAsync();
+                await userRepo.SeedUsersAsync();
+            });
+
             MainPage = new AppShell();
-            Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
-            Shell.Current.GoToAsync("//LoginPage");
         }
     }
 }
